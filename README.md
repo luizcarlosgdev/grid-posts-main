@@ -12,4 +12,5 @@ O desafio foi criar uma listagem de posts de um blog tendo o tamanho Desktop 3 p
 - Layout responsivo em diferentes tamanhos de telas.
 - Botão com efeito hover.
 
-Confira o projeto pronto 🚀
+Confira o resultado final 🚀
+devblogposts.netlify.app
