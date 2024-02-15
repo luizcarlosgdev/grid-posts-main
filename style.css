@@ -1,0 +1,105 @@
+/* Importando a Font para o desafio */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #bfe8fa;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  padding: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 640px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 896px) {
+  .card {
+    width: 30%;
+  }
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+
+  background: rgb(50,122,255);
+  background: linear-gradient(90deg, rgba(50,122,255,1) 0%, rgba(5,209,245,1) 100%);
+}
+
+.card-content h2 {
+  color: white;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.card-content p {
+  text-align: justify;
+  font-size: 1rem;
+  color: rgb(255, 255, 255)
+}
+
+.card-content button {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  color: white;
+}
+
+.card-content button:hover {
+  background-color: rgba(255, 255, 255, 0.4)
+}
